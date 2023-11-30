@@ -1,0 +1,33 @@
+/* .hoch {
+  flex-grow: 1;  
+  display: flex;
+  min-height: 50px;
+  padding: 10px 0;
+  background-color: rgb(21, 21, 21);
+}
+
+.hochctbtrum {
+  margin: auto;
+  text-align: center;
+  color: aliceblue;
+
+} */
+
+.title-bar {
+  flex-grow: 1;  
+  display: flex;
+  min-height: 120px;
+  padding: 10px 0;
+}
+
+.title-bar img {
+    height: 100px;
+   
+}
+
+.menu-area {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 20px;
+}
