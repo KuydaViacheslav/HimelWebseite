@@ -1,7 +1,8 @@
 :host {
     display: flex;
     /* background-color: aqua; */
-    background-image: url('src\imgs\fon.jpg');
+    background-image: url('src\assets\imgs\fon.jpg');
+    /* background-repeat:round; */
     background-repeat:round;
     flex-shrink: 1;
     /* overflow-x: hidden;

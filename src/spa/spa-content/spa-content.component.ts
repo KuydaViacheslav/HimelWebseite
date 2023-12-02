@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './spa-content.component.html',
   styleUrls: ['./spa-content.component.css']
 })
-export class SpaContentComponent {
-
+export class SpaContentComponent  {
+ 
 }
