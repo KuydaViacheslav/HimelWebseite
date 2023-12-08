@@ -1,20 +1,48 @@
+<div *screenLarge class="title-bar">
+
+    <!-- <div class="small-icon-holder">
+        <a><img class="img-menu" src="assets\imgs\menu.png" (click)='menuService.toggleMenu()'></a>
+    </div> -->
+
+   <div class="hederHom">
+    <div class="small-image-holder">
+        <img src="assets\imgs\LOGO.png" alt="Logo Himel small" class="image">
+    </div>
+
+    <div class="menu-area">
+        <spa-menu *ngIf="!menuService.isVertical"></spa-menu>
+    </div>
+</div>
 
 
-<div class="title-bar">
-    <div class="hoch">
-        <div class="hochctbtrum">Informanion</div>
-    </div>
-    <div class="Logo">
-        <img src="assets\imgs\LOGO.png" alt="Logo Himel"> 
-    </div>
-          
-    
-     
-    
-    <!-- <div class="menu-area"> -->
-        <!-- <icon-bar></icon-bar> -->
-        <!-- <spa-menu></spa-menu> -->
+
+
+    <!-- <div class="small-icon-holder"> -->
+    <!-- <a><img class="img-menu" src="assets\imgs\menu.png" (click)="menuService.toggleMenu()"></a> -->
     <!-- </div> -->
 
-    
+    <!-- <div class="menu-area">
+        <icon-bar></icon-bar>
+        <spa-menu *ngIf="!menuService.isVertical"></spa-menu>
+    </div> -->
+
+
+    <!-- <div class="Logo">
+        <img src="assets\imgs\LOGO.png" alt="Logo Himel">
+    </div> -->
+
 </div>
+
+<div *screenSmall class="title-bar-small">
+
+    <div class="small-icon-holder">
+        <a><img class="img-menu"  src="assets\imgs\menu.png" (click)='menuService.toggleMenu()'></a>
+    </div>
+
+    <div class="small-image-holder">
+        <img src="assets\imgs\LOGO.png" alt="Logo Himel small" class="small-image">
+    </div>
+</div>
+
+ <!-- <img src="assets\imgs\LOGO.png" alt="Logo Himel"> -->
+    <!-- (click)='menuService.toggleMenu()' -->

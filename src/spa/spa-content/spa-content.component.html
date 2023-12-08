@@ -1,4 +1,9 @@
+<spa-menu *ngIf="menuService.isVertical && screenService.isLarge() || menuService.showVerticalMenu 
+&& !screenService.isLarge()" class="vertical-menu"></spa-menu>
 
+<div class="body-style">
+<router-outlet></router-outlet>
+</div>
 
 <img src="assets/imgs/1.jpg" alt="Foto Himel">
 
@@ -6,3 +11,5 @@
     <source src="assets\video\Видео WEB.mp4" type="video/mp4"> 
     
 </video> 
+
+

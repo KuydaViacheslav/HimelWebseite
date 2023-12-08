@@ -1,0 +1,38 @@
+:host { 
+    display: flex; 
+     /* background-color: rgb(8, 9, 9);  */
+     background-image: url('src\assets\imgs\fon.jpg'); 
+     background-repeat:round;
+     flex-shrink: 1; 
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+    
+    flex-direction: column; 
+    min-height: 50px;
+    
+ } 
+
+ .text{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ p{
+    margin-bottom: 0;
+ }
+
+ 
+ 
+
+
+/* div {
+    background-color: black; */
+    /* background-image: url('src\assets\imgs\fon.jpg'); */
+    /* background-repeat:round; */
+    /* min-height: 100px;
+    flex-grow: 1;   */
+  /* display: flex;
+  min-height: 190px;
+  padding: 10px 0; */
+  /* height: 100vh; */
+/* } */

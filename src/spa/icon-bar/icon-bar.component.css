@@ -1,0 +1,15 @@
+:host{
+    height: 60px;
+    text-align: center;
+    padding-top: 6px;
+    color: antiquewhite;
+}
+
+a{text-decoration: none;}
+
+.top-img{     /* Редоктировать иконки соц. сетей */
+    width: 30px;
+     height: 30px; 
+    margin-left: 15px;
+    vertical-align: middle;
+}

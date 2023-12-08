@@ -1,13 +1,16 @@
 :host {
     display: flex;
-    /* background-color: aqua; */
     background-image: url('src\assets\imgs\fon.jpg');
-    /* background-repeat:round; */
     background-repeat:round;
     flex-shrink: 1;
     /* overflow-x: hidden;
     overflow-y: auto; */
-    height: 100vh;
+    height: 3000px;
     flex-direction: column;
     
+}
+
+.body-style {
+    padding: 22px;
+    flex-grow: 1;
 }
